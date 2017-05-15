@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9A636A7B-E781-4CAE-AEED-91757C7E1181}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>_2012110516_ENT</RootNamespace>
+    <AssemblyName>2012110516-ENT</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entities\AdminEquipo.cs" />
+    <Compile Include="Entities\AdminLinea.cs" />
+    <Compile Include="Entities\CentroAtencion.cs" />
+    <Compile Include="Entities\Cliente.cs" />
+    <Compile Include="Entities\Contrato.cs" />
+    <Compile Include="Entities\Departamento.cs" />
+    <Compile Include="Entities\Direccion.cs" />
+    <Compile Include="Entities\Distrito.cs" />
+    <Compile Include="Entities\EquipoCelular.cs" />
+    <Compile Include="Entities\EstadoEvaluacion.cs" />
+    <Compile Include="Entities\Evaluacion.cs" />
+    <Compile Include="Entities\LineaTelefonica.cs" />
+    <Compile Include="Entities\Plan.cs" />
+    <Compile Include="Entities\Provincia.cs" />
+    <Compile Include="Entities\TipoEvaluacion.cs" />
+    <Compile Include="Entities\TipoLinea.cs" />
+    <Compile Include="Entities\TipoPago.cs" />
+    <Compile Include="Entities\TipoPlan.cs" />
+    <Compile Include="Entities\TipoTrabajador.cs" />
+    <Compile Include="Entities\Trabajador.cs" />
+    <Compile Include="Entities\UbiGeo.cs" />
+    <Compile Include="Entities\Venta.cs" />
+    <Compile Include="IRepositories\IRepositoryEquipoCelular.cs" />
+    <Compile Include="IRepositories\IRepositoryAdminEquipo.cs" />
+    <Compile Include="IRepositories\IRepositoryAdminLinea.cs" />
+    <Compile Include="IRepositories\IRepositoryCentroAtencion.cs" />
+    <Compile Include="IRepositories\IRepositoryCliente.cs" />
+    <Compile Include="IRepositories\IRepositoryContrato.cs" />
+    <Compile Include="IRepositories\IRepositoryDepartamento.cs" />
+    <Compile Include="IRepositories\IRepositoryDireccion.cs" />
+    <Compile Include="IRepositories\IRepositoryDistrito.cs" />
+    <Compile Include="IRepositories\IRepositoryEstadoEvaluacion.cs" />
+    <Compile Include="IRepositories\IRepositoryEvaluacion.cs" />
+    <Compile Include="IRepositories\IRepositoryLineaTelefonica.cs" />
+    <Compile Include="IRepositories\IRepositoryPlan.cs" />
+    <Compile Include="IRepositories\IRepositoryProvincia.cs" />
+    <Compile Include="IRepositories\IRepositoryTipoEvaluacion.cs" />
+    <Compile Include="IRepositories\IRepositoryTipoLinea.cs" />
+    <Compile Include="IRepositories\IRepositoryTipoPago.cs" />
+    <Compile Include="IRepositories\IRepositoryTipoPlan.cs" />
+    <Compile Include="IRepositories\IRepositoryTipoTrabajador.cs" />
+    <Compile Include="IRepositories\IRepositoryTrabajador.cs" />
+    <Compile Include="IRepositories\IRepositoryUbigeo.cs" />
+    <Compile Include="IRepositories\IRepositoryVenta.cs" />
+    <Compile Include="IRepositories\Repositories.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
