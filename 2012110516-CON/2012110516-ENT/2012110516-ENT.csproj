@@ -42,8 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\AdminEquipo.cs" />
-    <Compile Include="Entities\AdminLinea.cs" />
+    <Compile Include="Entities\AdministradorEquipo.cs" />
+    <Compile Include="Entities\AdministradorLinea.cs" />
     <Compile Include="Entities\CentroAtencion.cs" />
     <Compile Include="Entities\Cliente.cs" />
     <Compile Include="Entities\Contrato.cs" />
@@ -62,7 +62,7 @@
     <Compile Include="Entities\TipoPlan.cs" />
     <Compile Include="Entities\TipoTrabajador.cs" />
     <Compile Include="Entities\Trabajador.cs" />
-    <Compile Include="Entities\UbiGeo.cs" />
+    <Compile Include="Entities\Ubigeo.cs" />
     <Compile Include="Entities\Venta.cs" />
     <Compile Include="IRepositories\IRepositoryEquipoCelular.cs" />
     <Compile Include="IRepositories\IRepositoryAdminEquipo.cs" />

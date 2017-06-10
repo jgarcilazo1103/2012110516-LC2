@@ -9,6 +9,6 @@ namespace _2012110516_ENT.IRepository
 {
     public interface IRepositoryAdminLinea
     {
-        IEnumerable<AdminLinea> getAdministradorporLinea(LineaTelefonica lineaTelefonica);
+        IEnumerable<AdministradorLinea> getAdministradorporLinea(LineaTelefonica lineaTelefonica);
     }
 }

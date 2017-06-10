@@ -6,17 +6,9 @@ using System.Threading.Tasks;
 
 namespace _2012110516_ENT.Entities
 {
-    public class TipoEvaluacion
+    public enum TipoEvaluacion : byte
     {
-
-        private char renovar = '0';
-        public char Renovar { get => renovar; set => renovar = value; }
-
-        private char portabilidad = '1';
-        public char Portabilidad { get => portabilidad; set => portabilidad = value; }
-      
-        private char lineaNueva = '2';
-        public char LineaNueva { get => lineaNueva; set => lineaNueva = value; }
-
+        Procede = 1,
+        NoProcede = 2,
     }
 }

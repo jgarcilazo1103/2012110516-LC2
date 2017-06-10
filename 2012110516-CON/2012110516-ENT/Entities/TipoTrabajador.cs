@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace _2012110516_ENT.Entities
 {
-    public class TipoTrabajador
+    public enum TipoTrabajador : byte
     {
-        public string tipoTrabajador { get; set; }
-        public double codTipoTrabajador { get; set; }
+        Vendedor = 1,
+        Cajero = 2,
     }
 }

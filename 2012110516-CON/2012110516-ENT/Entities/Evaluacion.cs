@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,28 +9,27 @@ namespace _2012110516_ENT.Entities
 {
     public class Evaluacion
     {
-        public int idEvaluacion { set; get; }
-        public LineaTelefonica lineaTelefonica { set; get; }
-        public int idLineaTelefonica { set; get; }
+        public int EvaluacionId { get; set; }
 
-        public EquipoCelular equipo { set; get; }
-        public int idEquipoCelular { set; get; }
+        public int TrabajadorId { get; set; }
+        public Trabajador Trabajador { get; set; }
+        public EstadoEvaluacion EstadoEvaluacion { get; set; }
+        public TipoEvaluacion TipoEvaluacion { get; set; }
+        public int ClienteId { get; set; }
+        public Cliente Cliente { get; set; }
+        public ICollection<Venta> Ventas { get; set; }
+        public int PlanId { get; set; }
+        public Plan Plan { get; set; }
+        public int CentroAtencionId { get; set; }
+        public CentroAtencion CentroAtencion { get; set; }
+        public int LineaTelefonicaId { get; set; }
+        public LineaTelefonica LineaTelefonica { get; set; }
+        public int EquipoCelularId { get; set; }
+        public EquipoCelular EquipoCelular { get; set; }
 
-        public Plan plan { set; get; }
-        public int idPlan { set; get; }
-
-        public Trabajador trabajador { set; get; }
-        public int idTrabajador { set; get; }
-
-        public TipoEvaluacion tipoEvaluacion { set; get; }
-
-        public EstadoEvaluacion estado { set; get; }
-
-        public Cliente cliente { set; get; }
-        public int idCliente { set; get; }
-
-        public Venta venta { set; get; }
-
-        public DateTime fechaEvaluacion { set; get; }
+        public Evaluacion()
+        {
+            Ventas = new Collection<Venta>();
+        }
     }
 }

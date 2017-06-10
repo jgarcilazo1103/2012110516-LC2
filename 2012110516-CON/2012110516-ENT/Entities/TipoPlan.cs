@@ -6,12 +6,11 @@ using System.Threading.Tasks;
 
 namespace _2012110516_ENT.Entities
 {
-    public class TipoPlan
+    public enum TipoPlan : byte
     {
-
-        private char planCaro = '1';
-        public char PlanCaro { get => planCaro; set => planCaro = value; }
-        private char planModico = '0';
-        public char PlanModico { get => planModico; set => planModico = value; }
+        Plan30 = 1,
+        Plan40 = 2,
+        Plan50 = 3,
+        Plan100 = 4,
     }
 }

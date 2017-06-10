@@ -1,1 +1,2 @@
 c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-CON\2012110516-PER\obj\Debug\2012110516-PER.csprojResolveAssemblyReference.cache
+C:\Users\JorgePedro\Desktop\2012110516-SLN\2012110516-LC2\2012110516-CON\2012110516-PER\obj\Debug\2012110516-PER.csprojResolveAssemblyReference.cache

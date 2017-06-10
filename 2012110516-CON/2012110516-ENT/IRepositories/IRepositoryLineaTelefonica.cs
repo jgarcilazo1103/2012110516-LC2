@@ -9,7 +9,7 @@ namespace _2012110516_ENT.IRepository
 {
     public interface IRepositoryLineaTelefonica
     {
-        IEnumerable<LineaTelefonica> getLineaporAdministrador(AdminLinea AdminLinea);
+        IEnumerable<LineaTelefonica> getLineaporAdministrador(AdministradorLinea AdminLinea);
         IEnumerable<LineaTelefonica> getLineaporEvaluacion(Evaluacion Evaluacion);
     }
 }

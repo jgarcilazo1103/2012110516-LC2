@@ -6,13 +6,9 @@ using System.Threading.Tasks;
 
 namespace _2012110516_ENT.Entities
 {
-    public class TipoPago
+    public enum TipoPago : byte
     {
-        private char credito = '0';
-        public char Credito { get => credito; set => credito = value; }
-        private char contado = '1';
-        public char Contado { get => contado; set => contado = value; }
-        
-        
+        Credito = 1,
+        Efectivo = 2,
     }
 }

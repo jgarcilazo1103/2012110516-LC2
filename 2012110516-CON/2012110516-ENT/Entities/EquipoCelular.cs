@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -8,10 +9,16 @@ namespace _2012110516_ENT.Entities
 {
     public class EquipoCelular
     {
-        public int idEquipoCelular { set; get; }
-        public String modeloCelular { set; get; }
-        public String nroSerieCelular { set; get; }
-        public AdminEquipo adminEquipo { set; get; }
-        public int idAdministradorEquipo { set; get; }
+        public int EquipoCelularId { get; set; }
+        public string Modelo { get; set; }
+
+        public ICollection<AdministradorEquipo> AdministradorEquipos { get; set; }
+        public ICollection<Evaluacion> Evaluaciones { get; set; }
+
+        public EquipoCelular()
+        {
+            AdministradorEquipos = new Collection<AdministradorEquipo>();
+            Evaluaciones = new Collection<Evaluacion>();
+        }
     }
 }

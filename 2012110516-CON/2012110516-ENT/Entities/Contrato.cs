@@ -8,14 +8,14 @@ namespace _2012110516_ENT.Entities
 {
     public class Contrato
     {
-        public int idCliente { set; get; }
-        public String Dni { set; get; }
-        public String nombres { set; get; }
-        public String apellidos { set; get; }
-        public String correo { set; get; }
-        public String direccion { set; get; }
+        public int ContratoId { get; set; }
+        public DateTime FechaContrato { get; set; }
 
-        public List<Evaluacion> ListEvaluaciones { set; get; }
-        public List<Venta> ListVentas { set; get; }
+        public int VentaId { get; set; }
+        public Venta Venta { get; set; }
+
+        public Contrato()
+        {
+        }
     }
 }

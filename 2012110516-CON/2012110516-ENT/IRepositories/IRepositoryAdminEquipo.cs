@@ -9,6 +9,6 @@ namespace _2012110516_ENT.IRepository
 {
     public interface IRepositoryAdminEquipo
     {
-        IEnumerable<AdminEquipo> getAdministradorporEquipoCelular(EquipoCelular equipocelular);
+        IEnumerable<AdministradorEquipo> getAdministradorporEquipoCelular(EquipoCelular equipocelular);
     }
 }

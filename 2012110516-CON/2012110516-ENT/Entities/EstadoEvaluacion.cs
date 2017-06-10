@@ -6,14 +6,9 @@ using System.Threading.Tasks;
 
 namespace _2012110516_ENT.Entities
 {
-    public class EstadoEvaluacion 
+    public enum EstadoEvaluacion : byte
     {
-        private char aprobado = '0';
-
-        public char Aprobado { get => aprobado; set => aprobado = value; }
-
-        public char desaprobado = '1';
-
-        public char Desaprobado { get => desaprobado; set => desaprobado = value; }
+        Califica = 1,
+        Nocalifica = 2,
     }
 }
