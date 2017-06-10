@@ -50,25 +50,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Repositories\TelefonicaDbContext.cs" />
-    <Compile Include="EntityTypeConfiguration\AdminEquipoConfiguration.cs" />
-    <Compile Include="EntityTypeConfiguration\AdminLineaConfiguration.cs" />
     <Compile Include="EntityTypeConfiguration\CentroAtencionConfiguration.cs" />
     <Compile Include="EntityTypeConfiguration\ClienteConfiguration.cs" />
     <Compile Include="EntityTypeConfiguration\ContratoConfiguration.cs" />
     <Compile Include="EntityTypeConfiguration\DepartamentoConfiguration.cs" />
-    <Compile Include="EntityTypeConfiguration\DireccionConfiguration.cs" />
     <Compile Include="EntityTypeConfiguration\DistritoConfiguration.cs" />
     <Compile Include="EntityTypeConfiguration\EquipoCelularConfiguration.cs" />
-    <Compile Include="EntityTypeConfiguration\EstadoEvaluacionConfiguration.cs" />
     <Compile Include="EntityTypeConfiguration\EvaluacionConfiguration.cs" />
     <Compile Include="EntityTypeConfiguration\LineaTelefonicaConfiguration.cs" />
     <Compile Include="EntityTypeConfiguration\PlanConfiguration.cs" />
     <Compile Include="EntityTypeConfiguration\ProvinciaConfiguration.cs" />
-    <Compile Include="EntityTypeConfiguration\TipoEvaluacionConfiguration.cs" />
-    <Compile Include="EntityTypeConfiguration\TipoLineaConfiguration.cs" />
-    <Compile Include="EntityTypeConfiguration\TipoPagoConfiguration.cs" />
-    <Compile Include="EntityTypeConfiguration\TipoPlanConfiguration.cs" />
-    <Compile Include="EntityTypeConfiguration\TipoTrabajadorConfiguration.cs" />
     <Compile Include="EntityTypeConfiguration\TrabajadorConfiguration.cs" />
     <Compile Include="EntityTypeConfiguration\UbiGeoConfiguration.cs" />
     <Compile Include="EntityTypeConfiguration\VentaConfiguration.cs" />

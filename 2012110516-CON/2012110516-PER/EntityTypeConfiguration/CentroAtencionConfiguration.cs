@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity.ModelConfiguration;
-using _2012110516_ENT;
+using _2012110516_PER;
 
 namespace _2012110516_PER.EntityTypeConfiguration
 {
@@ -14,7 +14,7 @@ namespace _2012110516_PER.EntityTypeConfiguration
         {
 
             ToTable("CentroAtencion");
-            HasKey(p => p.idCentroAtencion);
+            HasKey(p => p.idcentroAtencion);
 
             HasRequired(c => c.direccion).WithRequiredPrincipal(p => p.centroatencion);
 

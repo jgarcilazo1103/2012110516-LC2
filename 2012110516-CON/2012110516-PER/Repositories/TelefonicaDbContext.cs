@@ -35,7 +35,7 @@ namespace _2012110516_PER
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Configurations.Add(new AdminEquipoConfiguration());
+            modelBuilder.Configurations.Add(new AdministradorEquipoConfiguration());
             modelBuilder.Configurations.Add(new AdminLineaConfiguration());
             modelBuilder.Configurations.Add(new CentroAtencionConfiguration());
             modelBuilder.Configurations.Add(new ContratoConfiguration());
