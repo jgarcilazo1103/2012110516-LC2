@@ -1,0 +1,6 @@
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-SOL\bin\Debug\2012110516-SOL.exe.config
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-SOL\bin\Debug\2012110516-SOL.exe
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-SOL\bin\Debug\2012110516-SOL.pdb
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-SOL\obj\Debug\2012110516-CON.csprojResolveAssemblyReference.cache
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-SOL\obj\Debug\2012110516-SOL.exe
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-SOL\obj\Debug\2012110516-SOL.pdb

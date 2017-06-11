@@ -1,0 +1,15 @@
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-PER\bin\Debug\2012110516-PER.exe.config
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-PER\bin\Debug\2012110516-PER.exe
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-PER\bin\Debug\2012110516-PER.pdb
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-PER\bin\Debug\2012110516-ENT.exe
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-PER\bin\Debug\EntityFramework.dll
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-PER\bin\Debug\EntityFramework.SqlServer.dll
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-PER\bin\Debug\2012110516-ENT.pdb
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-PER\bin\Debug\2012110516-ENT.exe.config
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-PER\bin\Debug\EntityFramework.xml
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-PER\bin\Debug\EntityFramework.SqlServer.xml
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-PER\obj\Debug\2012110516-PER.csprojResolveAssemblyReference.cache
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-PER\obj\Debug\_2012110516_PER.Migrations.initialmode.resources
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-PER\obj\Debug\2012110516-PER.csproj.GenerateResource.Cache
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-PER\obj\Debug\2012110516-PER.exe
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-PER\obj\Debug\2012110516-PER.pdb

@@ -1,0 +1,5 @@
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-ENT\bin\Debug\2012110516-ENT.exe.config
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-ENT\bin\Debug\2012110516-ENT.exe
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-ENT\bin\Debug\2012110516-ENT.pdb
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-ENT\obj\Debug\2012110516-ENT.exe
+c:\users\jorgepedro\documents\visual studio 2017\Projects\2012110516-SOL\2012110516-ENT\obj\Debug\2012110516-ENT.pdb
